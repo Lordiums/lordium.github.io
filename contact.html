@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebLAB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactați-l pe Alexandru Stîncă">
+    <link rel="stylesheet" href="styles/stylescontact.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="preload" as="image" href="images/logo.png">
+    <link rel="preload" href="styles/fonts.css" as="style">
+    <link rel="preload" href="fonts/Rubik/Rubik-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Rubik/Rubik-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Rubik/Rubik-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="logo">
+            <img src="images/nobg.png" alt="Logo" class="nav-logo" width="150" height="50">
+        </a>
+        <button class="theme-toggle" aria-label="Toggle theme">
+            <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>CONTACTAȚI-MĂ</h1>
+        <p>Aș fi încântat să primesc vești de la dumneavoastră</p>
+        <div class="status-tags">
+            <span class="tag available">
+                <span class="dot"></span>
+                Disponibil pentru colaborări
+            </span>
+            <span class="tag response">
+                <svg class="clock-icon" viewBox="0 0 24 24" width="14" height="14">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+                Răspuns în 24h
+            </span>
+        </div>
+    </section>
+
+    <main>
+        <div class="intro-section">
+            <div class="intro-text">
+                <h2 class="no-line" style="text-align: center;">Doriți să mă contactați?</h2>
+                <p>Dacă aveți careva întrebări, un feedback, propuneri de colaborare sau pur și simplu doriți să luați legătura pentru o discuție sau pentru alte informații, vă rugăm să utilizați informațiile de mai jos.</p>
+            </div>
+        </div>
+
+        <div class="contact-container">
+            <section class="contact-section">
+                <h3>Date de contact</h3>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-header">
+                            <span class="contact-title">Email</span>
+                        </div>
+                        <div class="contact-content">alexandru.stinca@em.utm.md</div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-header">
+                            <span class="contact-title">Telefon</span>
+                        </div>
+                        <div class="contact-content">+373 69 123 456</div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-header">
+                            <span class="contact-title">Adresă</span>
+                        </div>
+                        <div class="contact-content">Bd. Dacia 41, Chișinău, MD-2060</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <h3>Trimite un mesaj</h3>
+                <form action="#" method="POST">
+                    <label for="name">Nume</label>
+                    <input type="text" id="name" name="name" placeholder="Introduceți numele dvs." required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Introduceți adresa de email" required>
+
+                    <label for="message">Mesaj</label>
+                    <textarea id="message" name="message" placeholder="Scrieți mesajul dvs." required></textarea>
+
+                    <button type="submit" class="send-message">Trimite mesajul</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="https://utm.md/">
+                <img 
+                    src="images/logo.png" 
+                    alt="Logo" 
+                    class="footer-logo"
+                    loading="lazy"
+                    width="150" 
+                    height="50">
+            </a>
+            <div class="footer-text">
+                <p>Design by Alexandru Stîncă</p>
+                <p>alexandru.stinca@em.utm.md</p>
+                <p>&copy; 2024 ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </footer>
+    <script src="jscripts/copy.js"></script>
+    <script src="jscripts/lightdark.js"></script>
+    <script src="jscripts/scroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebLAB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofoliul personal al lui Alexandru Stîncă">
+    <link rel="stylesheet" href="styles/stylesindex.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="preload" as="image" href="images/logo.png">
+    <link rel="preload" href="styles/fonts.css" as="style">
+    <link rel="preload" href="fonts/Rubik/Rubik-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Rubik/Rubik-Medium.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Rubik/Rubik-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="logo">
+            <img src="images/nobg.png" alt="Logo" class="nav-logo" width="150" height="50">
+        </a>
+        <button class="theme-toggle" aria-label="Toggle theme">
+            <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+        </button>
+        <ul class="nav-links">
+            <li><a href="/" class="active">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>EU. CÂTE PUȚIN DESPRE MINE</h1>
+        <p>Bine ați venit în spațiul meu profesional</p>
+        <button class="read-more" onclick="window.location.href='about.html'">Citește mai mult</button>
+    </section>
+
+    <main>
+        <div class="intro-section">
+            <div class="intro-image">
+                <img 
+                    src="images/profile.jpg" 
+                    alt="O fotografie cu mine" 
+                    class="profile-image"
+                    loading="lazy"
+                    width="400" 
+                    height="500">
+            </div>
+            
+            <div class="intro-text">
+                <h2>ALEXANDRU<br>STÎNCĂ</h2>
+                <p>Sunt bu&shy;cu&shy;ros să vă îm&shy;păr&shy;tă&shy;șesc mai 
+                    mul&shy;te des&shy;pre mine, de la pa&shy;si&shy;u&shy;ni&shy;le mele și până 
+                    la par&shy;cur&shy;sul meu pro&shy;fe&shy;si&shy;o&shy;nal, toate de&shy;fi&shy;nind o parte 
+                    e&shy;sen&shy;ți&shy;a&shy;lă a dez&shy;vol&shy;tă&shy;rii mele ca stu&shy;dent. Mă fas&shy;ci&shy;nea&shy;ză 
+                    pro&shy;ce&shy;sul de în&shy;vă&shy;ța&shy;re con&shy;ti&shy;nu&shy;ă și a&shy;pli&shy;ca&shy;rea prac&shy;ti&shy;că a 
+                    cu&shy;noș&shy;tin&shy;țe&shy;lor do&shy;bân&shy;di&shy;te, atât în stu&shy;dii, cât și în 
+                    ex&shy;pe&shy;ri&shy;en&shy;țe&shy;le re&shy;a&shy;le de a&shy;fa&shy;ceri.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="https://utm.md/">
+                <img 
+                    src="images/logo.png" 
+                    alt="Logo" 
+                    class="footer-logo"
+                    loading="lazy"
+                    width="150" 
+                    height="50">
+            </a>
+            <div class="footer-text">
+                <p>Design by Alexandru Stîncă</p>
+                <p>alexandru.stinca@em.utm.md</p>
+                <p>&copy; 2024 ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </footer>
+    <script src="jscripts/lightdark.js"></script>
+    <script src="jscripts/scroll.js"></script>
+</body>
+</html>
